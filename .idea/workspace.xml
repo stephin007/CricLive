@@ -21,15 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="666188fe-0827-4d3d-a0e6-d824ba996761" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunAnythingCache">
@@ -66,6 +59,9 @@
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="666188fe-0827-4d3d-a0e6-d824ba996761" name="Default Changelist" comment="" />
@@ -75,7 +71,8 @@
       <updated>1604689144394</updated>
       <workItem from="1604689145634" duration="724000" />
       <workItem from="1604690160342" duration="1894000" />
-      <workItem from="1604721166949" duration="6238000" />
+      <workItem from="1604721166949" duration="8732000" />
+      <workItem from="1604730459358" duration="237000" />
     </task>
     <servers />
   </component>
@@ -103,26 +100,26 @@
       <screen x="80" y="27" width="1286" height="741" />
     </state>
     <state x="456" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/80.27.1286.741@80.27.1286.741" timestamp="1604721685144" />
-    <state width="1263" height="172" key="GridCell.Tab.0.bottom" timestamp="1604727374694">
+    <state width="1263" height="172" key="GridCell.Tab.0.bottom" timestamp="1604727749166">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
-    <state width="1263" height="172" key="GridCell.Tab.0.bottom/80.27.1286.741@80.27.1286.741" timestamp="1604727374694" />
-    <state width="1263" height="172" key="GridCell.Tab.0.center" timestamp="1604727374694">
+    <state width="1263" height="172" key="GridCell.Tab.0.bottom/80.27.1286.741@80.27.1286.741" timestamp="1604727749166" />
+    <state width="1263" height="172" key="GridCell.Tab.0.center" timestamp="1604727749165">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
-    <state width="1263" height="172" key="GridCell.Tab.0.center/80.27.1286.741@80.27.1286.741" timestamp="1604727374694" />
-    <state width="1263" height="172" key="GridCell.Tab.0.left" timestamp="1604727374693">
+    <state width="1263" height="172" key="GridCell.Tab.0.center/80.27.1286.741@80.27.1286.741" timestamp="1604727749165" />
+    <state width="1263" height="172" key="GridCell.Tab.0.left" timestamp="1604727749165">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
-    <state width="1263" height="172" key="GridCell.Tab.0.left/80.27.1286.741@80.27.1286.741" timestamp="1604727374693" />
-    <state width="1263" height="172" key="GridCell.Tab.0.right" timestamp="1604727374694">
+    <state width="1263" height="172" key="GridCell.Tab.0.left/80.27.1286.741@80.27.1286.741" timestamp="1604727749165" />
+    <state width="1263" height="172" key="GridCell.Tab.0.right" timestamp="1604727749166">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
-    <state width="1263" height="172" key="GridCell.Tab.0.right/80.27.1286.741@80.27.1286.741" timestamp="1604727374694" />
-    <state x="249" y="31" width="947" height="737" key="SettingsEditor" timestamp="1604727708253">
+    <state width="1263" height="172" key="GridCell.Tab.0.right/80.27.1286.741@80.27.1286.741" timestamp="1604727749166" />
+    <state x="249" y="31" width="947" height="737" key="SettingsEditor" timestamp="1604730646880">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
-    <state x="249" y="31" width="947" height="737" key="SettingsEditor/80.27.1286.741@80.27.1286.741" timestamp="1604727708253" />
+    <state x="249" y="31" width="947" height="737" key="SettingsEditor/80.27.1286.741@80.27.1286.741" timestamp="1604730646880" />
     <state x="387" y="174" width="672" height="677" key="run.anything.popup" timestamp="1604722077043">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
