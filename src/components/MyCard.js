@@ -1,10 +1,39 @@
-import React, {Fragment} from 'react'
+import React from 'react'
+import { Card, CardContent, Grid, CardActions, Button, Typography } from '@material-ui/core'
+
+import versus from "../img/versus.png"
 
 const MyCard = () => {
+    const getMatchCard  = () =>{
+        return(
+            <Card>
+                <CardContent>
+                    <Grid container justify="center" alignItems="center" spacing={5}>
+                        <Grid item>
+                            <Typography variant="h6">First Team</Typography>
+                        </Grid>
+                        <Grid item>
+                            <img src={versus} alt="Vs" width="50px" height="50px"/>
+                        </Grid>
+                        <Grid item>
+                            <Typography variant="h6">Second Team</Typography>
+                        </Grid>
+                    </Grid>
+                </CardContent>
+                {/* Use below if needed : style={{display: "flex", alignItems: "center", justifyContent:"center"}}*/}
+                <CardActions className= "mycard_button">
+                    <Button variant="contained" color="secondary" className= "mycard_firstButton">
+                        Show Details
+                    </Button>
+                    <Button variant="contained" color="secondary">
+                        {new Date().toString()}
+                    </Button>
+                </CardActions>
+            </Card>
+        )
+    }
     return (
-        <Fragment>
-            <h3>My cards</h3>
-        </Fragment>
+        getMatchCard()
     )
 }
 

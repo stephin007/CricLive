@@ -16,3 +16,9 @@ html,body{
   flex-direction: column;
 }
 
+@media (max-width: 700px){
+  .mycard_button{
+    display: flex;
+    flex-direction: column;
+  }
+}

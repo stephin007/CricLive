@@ -8,7 +8,7 @@ const App = () => {
   useEffect(()=>{
     getMatches()
     .then((data) => console.log("DATA: ",data))
-    .catch()
+    .catch(error=> console.log(error))
   },[])
   return (
     <div className="App">
