@@ -14,7 +14,7 @@ import {Button,
 import {KeyboardArrowUp, SportsCricket} from '@material-ui/icons'
 import { makeStyles } from '@material-ui/core/styles';
 
-import "../App.css"
+// import "../App.css"
 
 const useStyles = makeStyles((theme) => ({
     root: {
