@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import { Card, CardContent, Grid, CardActions, Button, Typography } from '@material-ui/core'
 
 import versus from "../img/versus.png"
@@ -6,6 +6,10 @@ import versus from "../img/versus.png"
 const MyCard = () => {
     const getMatchCard  = () =>{
         return(
+            <Fragment>
+                <h1>
+                    Latest updates
+                </h1>
             <Card>
                 <CardContent>
                     <Grid container justify="center" alignItems="center" spacing={5}>
@@ -30,6 +34,7 @@ const MyCard = () => {
                     </Button>
                 </CardActions>
             </Card>
+            </Fragment>
         )
     }
     return (

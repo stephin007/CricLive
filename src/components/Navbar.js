@@ -7,12 +7,12 @@ const Navbar = (props) => {
         <div className="navbar bg-primary">
             <h1>
                 <i className="fa fa-hashtag"/>
-                CricLive
+                <Link to="/">CricLive</Link>
             </h1>
             <ul>
-                {/* <li>
+                <li>
                 <Link to="/about">About</Link>
-                </li> */}
+                </li>
                 <li>
                 <a href="https://github.com/stephin007/CricLive" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
                 </li>

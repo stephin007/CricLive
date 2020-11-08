@@ -1,6 +1,8 @@
 import React, {useEffect} from "react"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar"
 import MyCard from "./components/MyCard"
+import About from "./components/About"
 import {getMatches} from "./api/Api"
 import "./App.css"
 
@@ -11,12 +13,17 @@ const App = () => {
     .catch(error=> console.log(error))
   },[])
   return (
-    <div className="App">
-        <Navbar/>
-        <h1>Latest Updates</h1>
-        <MyCard/>
-       
-    </div>
+    <Router>
+      <div className="App">
+          <Navbar/>
+          <Switch>
+              <Route exact path="/" component={MyCard} />
+              <Route exact path="/about" component={About} />
+            </Switch>
+          
+          {/* <MyCard/> */}
+      </div>
+    </Router>
   );
 }
 
