@@ -12,7 +12,7 @@ const MyCard = () => {
                 </h1>
             <Card>
                 <CardContent >
-                    <Grid container justify="center" alignItems="center" spacing={3} className="mycard_button">
+                    <Grid container justify="center" alignItems="center" spacing={3} className="mycard">
                         <Grid item>
                             <Typography variant="h6">First Team</Typography>
                         </Grid>
@@ -25,8 +25,8 @@ const MyCard = () => {
                     </Grid>
                 </CardContent>
                 {/* Use below if needed : style={{display: "flex", alignItems: "center", justifyContent:"center"}}*/}
-                <CardActions className= "mycard_button">
-                    <Button variant="contained" color="secondary" className= "mycard">
+                <CardActions className= "mycard">
+                    <Button variant="contained" color="secondary" className= "mycard_firstButton">
                         Show Details
                     </Button>
                     <Button variant="contained" color="secondary">

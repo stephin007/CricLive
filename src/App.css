@@ -106,7 +106,7 @@ body {
     text-align: center;
     justify-content: center;
   }
-  .mycard_button, .MuiButton-root{
+  .mycard, .MuiButton-root{
     display: flex;
     flex-direction: column;
     width: 100%;
