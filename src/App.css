@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
 }
 
 body {
@@ -64,9 +65,10 @@ body {
 .navbar ul {
   display: flex;
   align-items: center;
+  list-style-type: none;
 }
 
-.navbar a {
+.navbar a{
   color: #fff;
   padding: 0.45rem;
   margin: 0 0.25rem;
@@ -80,6 +82,20 @@ body {
 
 .about-para{
   margin: 1rem 0;
+}
+
+.mycard_button, .MuiButton-root{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.MuiButton-root:nth-child(1){
+  margin-bottom: 10px;
+}
+
+.MuiButton-root:nth-child(2){
+  margin-right: 8px;
 }
 
 /* Mobile Styles */
