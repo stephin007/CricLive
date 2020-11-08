@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 html,body{
   font-family: 'Nunito', sans-serif !important;
@@ -14,11 +14,90 @@ html,body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (max-width: 700px){
-  .mycard_button{
-    display: flex;
-    flex-direction: column;
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+.bg-primary{
+  background: rebeccapurple;
+}
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 5px rgb(158, 0, 0);
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.navbar .fa-github{
+  font-size: 32px;
+}
+
+.navbar i{
+  margin-right: 10px;
+}
+
+.navbar h1{
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+/* H43, sector 11 9811347299 dr vk gupta  530-730*/
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: var(--light-color);
+}
+
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+  /* Navbar */
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar h1 {
+    margin-bottom: 0.6rem;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
   }
 }
