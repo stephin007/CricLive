@@ -11,6 +11,9 @@
 #api keys
 .env
 
+#firerbase cache
+.firebase
+
 # production
 /build
 
