@@ -84,18 +84,10 @@ body {
   margin: 1rem 0;
 }
 
-.mycard_button, .MuiButton-root{
+.mycard{
   display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.MuiButton-root:nth-child(1){
-  margin-bottom: 10px;
-}
-
-.MuiButton-root:nth-child(2){
-  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Mobile Styles */
@@ -113,5 +105,18 @@ body {
   .navbar ul {
     text-align: center;
     justify-content: center;
+  }
+  .mycard_button, .MuiButton-root{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .MuiButton-root:nth-child(1){
+    margin-bottom: 10px;
+  }
+  
+  .MuiButton-root:nth-child(2){
+    margin-right: 8px;
   }
 }
