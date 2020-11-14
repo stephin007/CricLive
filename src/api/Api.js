@@ -11,7 +11,7 @@ export const getMatches = () => {
 
 // Load All contacts
 export const getMatchData = (id) =>{
-    const url = `https://cricapi.com/api/cricketScore/${API_KEY}&unique_id=${id}`
+    const url = `https://cricapi.com/api/cricketScore/?apikey=${API_KEY}&unique_id=${id}`
     return fetch(url)
     .then((response) =>response.json())
     .catch((error) => console.log("ERROR : ", error))
