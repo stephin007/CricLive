@@ -83,6 +83,24 @@ body {
   margin: 1rem 0;
 }
 
+.badge {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.7rem;
+  text-align: center;
+  margin: 0.3rem;
+  background: red;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+
+.badge-position{
+  float: right;
+}
+
+.badge-green{
+  background: chartreuse;
+}
+
 .mycard{
   display: flex;
   align-items: center;

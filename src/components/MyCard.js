@@ -8,6 +8,17 @@ const MyCard = ({match}) => {
         return(
             <Fragment>
             <Card style={{marginBottom: "20px"}}>
+            {match.type === "" 
+                ? 
+                <div className="badge badge-position">
+                    Match Type Not found
+                </div>
+
+                :
+                <div className="badge badge-position badge-green">
+                    {match.type}
+                </div>
+            }        
                 <CardContent >
                     <Grid container justify="center" alignItems="center" spacing={3} className="mycard">
                         <Grid item>
