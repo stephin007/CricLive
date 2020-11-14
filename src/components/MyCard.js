@@ -3,24 +3,21 @@ import { Card, CardContent, Grid, CardActions, Button, Typography } from '@mater
 
 import versus from "../img/versus.png"
 
-const MyCard = () => {
+const MyCard = ({match}) => {
     const getMatchCard  = () =>{
         return(
             <Fragment>
-                <h1>
-                    Latest updates
-                </h1>
-            <Card>
+            <Card style={{marginBottom: "20px"}}>
                 <CardContent >
                     <Grid container justify="center" alignItems="center" spacing={3} className="mycard">
                         <Grid item>
-                            <Typography variant="h6">First Team</Typography>
+                            <Typography variant="h6">{match["team-1"]}</Typography>
                         </Grid>
                         <Grid item>
                             <img src={versus} alt="Vs" width="50px" height="50px"/>
                         </Grid>
                         <Grid item>
-                            <Typography variant="h6">Second Team</Typography>
+                            <Typography variant="h6">{match["team-2"]}</Typography>
                         </Grid>
                     </Grid>
                 </CardContent>
@@ -30,7 +27,7 @@ const MyCard = () => {
                         Show Details
                     </Button>
                     <Button variant="contained" color="secondary">
-                        {new Date().toString()}
+                        Start Time: {new Date(match.dateTimeGMT).toLocaleString()}
                     </Button>
                 </CardActions>
             </Card>

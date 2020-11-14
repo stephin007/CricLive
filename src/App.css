@@ -11,7 +11,7 @@ body {
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: #e7e7e7;
   color: #333;
 }
 
@@ -60,7 +60,6 @@ body {
   font-family: 'Nunito', sans-serif;
   color: #fff;
 }
-/* H43, sector 11 9811347299 dr vk gupta  530-730*/
 
 .navbar ul {
   display: flex;
