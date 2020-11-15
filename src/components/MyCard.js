@@ -38,7 +38,7 @@ const MyCard = ({ match }) => {
       <Fragment>
         <Card style={{ marginBottom: "20px" }}>
           {match.type === "" ? (
-            <div className="badge badge-position">Match Type Not Found</div>
+            <div className="badge badge-position">Test Series</div>
           ) : (
             <div className="badge badge-position badge-green">{match.type}</div>
           )}
