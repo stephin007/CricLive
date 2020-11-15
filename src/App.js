@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
 const App = () => {
   const classes = useStyles();
   const [matches, setMatches] = useState([]);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     getMatches()
@@ -35,6 +36,10 @@ const App = () => {
       })
       .catch((error) => console.log(error));
   }, []);
+
+  const filteredMatches = matches.filter(match =>{
+    return match.type.toLowerCase().includes(search.toLowerCase())
+  })
   return (
     <Router>
       <div className="App">
@@ -44,14 +49,14 @@ const App = () => {
             Latest updates
           </h1>
           <form className={classes.root} noValidate>
-            <TextField id="outlined-basic" label="Search" variant="outlined" placeholder="Search..." className={classes.textField}/>
+            <TextField onChange={e => setSearch(e.target.value)} id="outlined-basic" label="Search" variant="outlined" placeholder="Search..." className={classes.textField}/>
           </form>
         </div>
         <Switch>
           <Route
             exact
             path="/"
-            render={(props) => <Home {...props} matches={matches} />}
+            render={(props) => <Home {...props} filteredMatches={filteredMatches} />}
           />
           <Route exact path="/about" component={About} />
         </Switch>

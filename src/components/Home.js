@@ -1,11 +1,11 @@
 import React from 'react'
 import MyCard from "./MyCard"
 
-const Home = ({matches}) => {
+const Home = ({filteredMatches}) => {
     return (
         <div className="container">
             {
-              matches.map((match) =>(
+              filteredMatches.map((match) =>(
                   <MyCard key={match.unique_id} match={match}/>
               ))  
             }

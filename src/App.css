@@ -87,7 +87,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: -9px;
+  /* margin-right: -9px; */
 }
 
 .badge {
