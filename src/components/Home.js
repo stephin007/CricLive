@@ -26,7 +26,7 @@ const Home = ({filteredMatches, loading}) => {
 
                 </div>
             ) : (
-                <img src={Spinner} alt="Loading..." style={{position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}} />
+                <img src={Spinner} alt="Loading..." style={{position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)", width: "200", height: "200"}} />
             )     
         }
         </Fragment>
