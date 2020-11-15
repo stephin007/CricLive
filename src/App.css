@@ -83,6 +83,13 @@ body {
   margin: 1rem 0;
 }
 
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: -9px;
+}
+
 .badge {
   font-size: 0.8rem;
   padding: 0.2rem 0.7rem;
@@ -124,6 +131,12 @@ body {
     text-align: center;
     justify-content: center;
   }
+
+  .search{
+    display: flex;
+    flex-direction: column;
+  }
+
   .mycard, .MuiButton-root{
     display: flex;
     flex-direction: column;
