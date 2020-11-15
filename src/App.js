@@ -49,7 +49,7 @@ const App = () => {
             Latest updates
           </h1>
           <form className={classes.root} noValidate>
-            <TextField onChange={e => setSearch(e.target.value)} id="outlined-basic" label="Search" variant="outlined" placeholder="Search..." className={classes.textField}/>
+            <TextField onChange={e => setSearch(e.target.value)} id="outlined-basic" label="Search" variant="outlined" placeholder="Search Match Type" className={classes.textField}/>
           </form>
         </div>
         <Switch>
