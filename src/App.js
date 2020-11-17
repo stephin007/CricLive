@@ -7,7 +7,6 @@ import Home from "./components/Home";
 
 import { getMatches } from "./api/Api";
 import "./App.css";
-// 8376008302
 
 const App = () => {
   const [matches, setMatches] = useState([]);
