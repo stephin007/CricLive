@@ -9,15 +9,6 @@ import Home from "./components/Home";
 import { getMatches } from "./api/Api";
 import "./App.css";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    "& > *": {
-      margin: theme.spacing(1),
-      width: "35ch",
-    },
-  }
-}));
-
 const App = () => {
   const [matches, setMatches] = useState([]);
   const [loading, setLoading] = useState(true)
