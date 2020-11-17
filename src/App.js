@@ -13,7 +13,7 @@ const App = () => {
   const [matches, setMatches] = useState([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const [matchesPerPage, setMatchesPerPage] = useState(30);
+  const [matchesPerPage] = useState(30);
 
   // Get Current POsts
   const indexOfLastMatch = currentPage * matchesPerPage;
