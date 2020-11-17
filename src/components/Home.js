@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import MyCard from "./MyCard"
+import Pagination from "./Pagination"
 
 import Spinner from "../img/spinner.gif"
 const useStyles = makeStyles((theme) => ({
@@ -10,14 +11,10 @@ const useStyles = makeStyles((theme) => ({
           margin: theme.spacing(1),
           width: "35ch",
         },
-      },
-      textField: {
-      width: "300px",
-      marginLeft: "-1px",
-    },
+      }
   }));
 
-const Home = ({matches, loading}) => {
+const Home = ({matches, loading, matchesPerPage,totalMatches, paginate}) => {
     const classes = useStyles();
     const [search, setSearch] = useState("");
 
@@ -29,7 +26,7 @@ const Home = ({matches, loading}) => {
     return (
         <Fragment>
         <div className="container search">
-          <h1>Latest updates</h1>
+          <h1>Latest <span style={{color: "#961900"}}>updates</span></h1>
           <form className={classes.root} noValidate>
             <TextField
               onChange={(e) => setSearch(e.target.value)}
@@ -37,10 +34,10 @@ const Home = ({matches, loading}) => {
               label="Search"
               variant="outlined"
               placeholder="Search Match Type"
-              className={classes.textField}
             />
           </form>
         </div>
+        <Pagination matchesPerPage={matchesPerPage} totalMatches={totalMatches} paginate={paginate}/>
         {
             loading === false ? (
                 <div className="container">
@@ -60,6 +57,7 @@ const Home = ({matches, loading}) => {
                 <img src={Spinner} alt="Loading..." style={{position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)", width: "200", height: "200"}} />
             )     
         }
+        
         </Fragment>
     )
 }
