@@ -16,7 +16,7 @@ body {
 }
 
 .bg-primary{
-  background: #321f28;
+  background: #321f28 !important;
 }
 
 .bg-dark{
@@ -135,6 +135,7 @@ body {
   .search{
     display: flex;
     flex-direction: column;
+    font-size: 16px;
   }
 
   .mycard, .MuiButton-root{
@@ -149,5 +150,11 @@ body {
   
   .MuiButton-root:nth-child(2){
     margin-right: 8px;
+  }
+}
+
+@media (max-width: 400px){
+  .search{
+    font-size: 14px;
   }
 }

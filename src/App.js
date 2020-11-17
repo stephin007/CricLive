@@ -11,7 +11,17 @@ import "./App.css";
 
 const App = () => {
   const [matches, setMatches] = useState([]);
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [matchesPerPage, setMatchesPerPage] = useState(30);
+
+  // Get Current POsts
+  const indexOfLastMatch = currentPage * matchesPerPage;
+  const indexOfFirstMatch = indexOfLastMatch - matchesPerPage;
+  const currentMatches = matches.slice(indexOfFirstMatch, indexOfLastMatch);
+
+  // Change Page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber)
 
   useEffect(() => {
     getMatches()
@@ -32,7 +42,14 @@ const App = () => {
             exact
             path="/"
             render={(props) => (
-              <Home {...props} matches={matches} loading={loading} />
+              <Home
+                {...props}
+                matches={currentMatches}
+                loading={loading}
+                matchesPerPage={matchesPerPage}
+                totalMatches={matches.length}
+                paginate = {paginate}
+              />
             )}
           />
           <Route exact path="/about" component={About} />
