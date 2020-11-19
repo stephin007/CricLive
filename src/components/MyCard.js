@@ -73,7 +73,7 @@ const MyCard = ({ match }) => {
             >
               Show Details
             </Button>
-            <Button variant="contained" color="secondary">
+            <Button variant="contained" color="secondary" style={{cursor: "auto"}}>
               Start Time: {new Date(match.dateTimeGMT).toLocaleString()}
             </Button>
           </CardActions>
