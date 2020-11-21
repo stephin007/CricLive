@@ -41,6 +41,6 @@
 # Author
 ## 👤 Stephin Reji
 - Twitter: [reji_setphin](https://twitter.com/reji_stephin)
-- portfolio : [stephinreji.me](https://stephinreji.me)
+- Portfolio : [stephinreji.me](https://stephinreji.me)
 - Instagram : [the_spectacled_one](https://instagram.com/the_spectacled_one/)
 - Github : [Stephin007](https://github.com/Stephin007)
