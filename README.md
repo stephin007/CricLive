@@ -36,7 +36,7 @@
 
 ## Make sure that you star this repository
 
-<img width="350px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--MJisiJsL--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/2nn6mhp57inp6rdxarzt.png" />
+<img width="150px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--MJisiJsL--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/2nn6mhp57inp6rdxarzt.png" />
 
 # Author
 ## 👤 Stephin Reji
